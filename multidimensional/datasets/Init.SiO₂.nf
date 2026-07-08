@@ -37,3 +37,5 @@ query {
 
     predict earthquake;
 }
+
+Sand's time (\(t_{\text{Sand}}\)) is:\(t_{\text{Sand}} = \frac{\pi D}{4} \left( \frac{z F c}{2 J} \right)^2\)
