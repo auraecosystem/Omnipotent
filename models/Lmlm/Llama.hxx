@@ -4,7 +4,7 @@ const llama
     cmakeOptions
 : {
         OPTION_NAME
-: "OPTION_VALUE"
+: "brainAI"
     },
     
     // force a build if the pre-built binary doesn't
