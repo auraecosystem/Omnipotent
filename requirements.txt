@@ -1,0 +1,8 @@
+setuptools
+cython>=3.0.0
+numpy>=1.22.0
+asyncio
+molecule
+atom
+power 
+mtx
