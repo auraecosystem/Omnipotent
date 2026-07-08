@@ -1,5 +1,12 @@
 Connecting the mathematical engine of the auraecosystem/Omnipotent repository to these conceptual pillars demonstrates how Python serves as a launchpad for complex modeling, physical simulations, and sociopolitical abstraction.
 
+<img width="1037" height="150" alt="image" src="https://github.com/user-attachments/assets/9f9ef5ae-d4c8-43d1-9b1b-f37371a125ad" />
+[!]
+(z（M-2）*
+f(x)= f(k) + f'(k) * (X-k) + f"(k)
+/>
+<img width="715" height="99" alt="image" src="https://github.com/user-attachments/assets/b4f62402-42c5-4a28-9696-751c5b7b53ef" />
+
 ## 1. Multidimensional Programming & Calculus
 
 Python processes complex mathematical layers by pairing foundational calculus libraries with high-dimensional arrays. [1] 
