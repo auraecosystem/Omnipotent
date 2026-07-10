@@ -1,6 +1,7 @@
 Realm configuration decisions
 =============================
 
+
 Before installing Kerberos V5, it is necessary to consider the
 following issues:
 
