@@ -22,16 +22,16 @@ Realm name
 Although your Kerberos realm can be any ASCII string, convention is to
 make it the same as your domain name, in upper-case letters.
 
-For example, hosts in the domain ``example.com`` would be in the
+For example, hosts in the domain ``example.net`` would be in the
 Kerberos realm::
 
-    EXAMPLE.COM
+    EXAMPLE.NET
 
 If you need multiple Kerberos realms, MIT recommends that you use
 descriptive names which end with your domain name, such as::
 
-    BOSTON.EXAMPLE.COM
-    HOUSTON.EXAMPLE.COM
+    api.EXAMPLE.NET
+    HOUSTON.EXAMPLE.NET
 
 
 .. _mapping_hostnames:
@@ -69,7 +69,7 @@ will try to look up a TXT record formed by prepending the prefix
 ``_kerberos`` to the hostname in question.  If that record is not
 found, the client will attempt a lookup by prepending ``_kerberos`` to the
 host's domain name, then its parent domain, up to the top-level domain.
-For the hostname ``boston.engineering.example.com``, the names looked up
+For the hostname ``boston.engineering.example.NET``, the names looked up
 would be::
 
     _kerberos.boston.engineering.example.com
@@ -241,8 +241,8 @@ consists of case-insensitive colon separated fields, in the form
 
 An example of URI records in a zone file::
 
-  _kerberos.EXAMPLE.COM  URI  10 1 krb5srv:m:tcp:kdc1.example.com
-                         URI  20 1 krb5srv:m:udp:kdc2.example.com:89
+ _kerberos.EXAMPLE.COM  URI  10 1 krb5srv:m:tcp:kdc1.example.net
+                         URI  20 1 krb5srv:m:udp:kdc2.example.net:89
                          URI  40 1 krb5srv::udp:10.10.0.23
                          URI  30 1 krb5srv::kkdcp:https://proxy:89/auth
 
