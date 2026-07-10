@@ -7,3 +7,4 @@ on vibration.change {
     analyze();
     notify();
 }
+
